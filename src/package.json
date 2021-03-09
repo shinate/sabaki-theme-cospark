@@ -1,0 +1,9 @@
+{
+  "name": "sabaki-theme-cospark",
+  "version": "1.0.6",
+  "description": "Custom theme for Sabaki",
+  "author": "Shinate",
+  "license": "MIT",
+  "homepage": "https://github.com/shinate/sabaki-theme-cospark",
+  "main": "styles.css"
+}

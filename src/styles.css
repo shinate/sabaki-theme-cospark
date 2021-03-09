@@ -1,0 +1,33 @@
+
+.shudan-goban {
+  border: none;
+  --shudan-board-foreground-color: #230f02;
+}
+
+.shudan-goban-image {
+  background: transparent url("board.png") no-repeat center center;
+  background-size: 100%
+}
+
+main {
+  background: transparent url("ground.png") center;
+  background-size: 220px;
+}
+
+#goban {
+  border-radius: 3px 2px 5px 3px;
+}
+
+.shudan-vertex:not(.shudan-sign_0) .shudan-shadow {
+  background: none;
+  transform: scale3d(0.85, 0.85, 1);
+  box-shadow: 0.025em 0.05em 0.1em 0.1em rgba(0, 0, 0, 0.5);
+}
+
+.shudan-stone-image.shudan-sign_1 {
+  background-image: url('black.png');
+}
+
+.shudan-stone-image.shudan-sign_-1 {
+  background-image: url('white.png');
+}

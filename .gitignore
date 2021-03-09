@@ -1,0 +1,19 @@
+### Project
+build/
+node_modules/
+package-lock.json
+
+### Jetbrain(Intellij) template
+.idea/
+.idea_modules/
+*.iml
+*.iws
+out/
+
+### VisualStudioCode template
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+

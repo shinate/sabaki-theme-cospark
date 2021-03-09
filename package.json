@@ -1,0 +1,18 @@
+{
+  "name": "theme-cospark",
+  "version": "1.0.0",
+  "description": "For Sabaki",
+  "main": "index.js",
+  "scripts": {
+    "build": "asar pack src build/sabaki-theme-cospark.asar"
+  },
+  "author": "Cospark",
+  "license": "MIT",
+  "keywords": [
+    "Sabaki",
+    "KataGo"
+  ],
+  "devDependencies": {
+    "asar": "^3.0.3"
+  }
+}
