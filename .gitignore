@@ -2,6 +2,7 @@
 build/
 node_modules/
 package-lock.json
+.design/
 
 ### Jetbrain(Intellij) template
 .idea/
